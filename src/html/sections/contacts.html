@@ -1,0 +1,33 @@
+<section class="contacts" data-aos="fade-up">
+    <div id="map" class="contacts__map"></div>
+    <div class="contacts__container container">
+        <div class="contacts__wrapper">
+            <h2 class="contacts__title">Контакты</h2>
+            <p class="contacts__desc">Магазин-склад уцененной бытовой техники <span>«Краснодар-Дисконт»</span></p>
+            <div class="contacts__phones contacts-phones">
+                <div class="contacts-phones__wrapper">
+                    <a href="tel:+79184485418" class="contacts-phones__item">+7 (918) 448 54 18</a>
+                    <a href="tel:+79604361466" class="contacts-phones__item">+7 (960) 436 14 66</a>
+                    <a href="tel:+79180311016" class="contacts-phones__item">+7 (918) 031 10 16</a>
+                </div>
+            </div>
+            <p class="contacts__address">Краснодар, ул.Кожевенная 18, въезд на территорию</p>
+            <div class="contacts__links contacts-links">
+                <a href="https://t.me/krasnodar_diskont" class="contacts-links__item" target="_blank">
+                    <span class="contacts-links__text">Telegram</span>
+                    <img src="@img/svg/telegram-icon.svg" class="contacts-links__img">
+                </a>
+                <a href="https://www.avito.ru/user/7a154ae513dcb5b0b12289360f9ae88a/profile/all?src=search_seller_info&sellerId=7a154ae513dcb5b0b12289360f9ae88a" class="contacts-links__item" target="_blank">
+                    <span class="contacts-links__text">Avito</span>
+                    <img src="@img/svg/avito-icon.svg" class="contacts-links__img">
+                </a>
+            </div>
+            @@include('../components/button.html', {
+                "href": "@files/video.MP4",
+                "class": "contacts__btn button--blue button--without-icon",
+                "text": "Как нас найти?",
+                "attr": "data-fancybox"
+            })
+        </div>
+    </div>
+</section>

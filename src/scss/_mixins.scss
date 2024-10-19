@@ -1,0 +1,90 @@
+@mixin flex-row-grid ($column_gap, $row_gap) {
+    display: flex;
+    align-items: flex-start;
+    row-gap: $row_gap;
+    column-gap: $column_gap;
+    flex-wrap: wrap;
+}
+
+@mixin flex-row-item ($count, $column_gap) {
+    width: calc((100% - (($count - 1) * $column_gap)) / $count);
+}
+
+@mixin flex-column-grid ($row_gap) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: $row_gap;
+}
+
+@mixin mask {
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    background: $black-100;
+    transition: 0.3s background;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 1rem 7rem 0 rgba(0, 0, 0, 0.08);
+}
+
+@mixin box-shadow--sm {
+    box-shadow: 0 0.6rem 1.2rem 0 rgba(0, 0, 0, 0.03);
+}
+
+@mixin box-shadow--md {
+    box-shadow: 0 1rem 4rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+@mixin drop-shadow {
+    box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.06), 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.10);
+}
+
+@mixin drop-shadow--sm {
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+
+@mixin drop-shadow--md {
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.06), 0 0.4rem 0.3rem 0 rgba(0, 0, 0, 0.07);
+}
+
+@mixin drop-shadow--lg {
+    box-shadow: 0 0.4rem 0.3rem 0 rgba(0, 0, 0, 0.10), 0 1rem 0.8rem 0 rgba(0, 0, 0, 0.04);
+}
+
+@mixin drop-shadow--xl {
+    box-shadow: 0 0.8rem 0.5rem 0 rgba(0, 0, 0, 0.08), 0 2rem 1.3rem 0 rgba(0, 0, 0, 0.03);
+}
+
+@mixin drop-shadow--2xl {
+    box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.15);
+}
+
+@mixin blur {
+    backdrop-filter: blur(0.4rem);
+}
+
+@mixin blur--sm {
+    backdrop-filter: blur(0.2rem);
+}
+
+@mixin blur--md {
+    backdrop-filter: blur(0.6rem);
+}
+
+@mixin blur--lg {
+    backdrop-filter: blur(0.8rem);
+}
+
+@mixin blur--xl {
+    backdrop-filter: blur(1.2rem);
+}
+
+@mixin blur--2xl {
+    backdrop-filter: blur(2rem);
+}
+
+@mixin blur--3xl {
+    backdrop-filter: blur(3.2rem);
+}

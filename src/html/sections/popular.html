@@ -1,0 +1,42 @@
+<section class="popular" data-aos="fade-up">
+    <div class="popular__container container">
+        <div class="popular__wrapper">
+            <div class="popular__column">
+                <h2 class="popular__title">Каталог</h2>
+                <p class="popular__desc">Широкий ассортимент крупной бытовой техники (холодильники, стиральные машины, телевизоры, духовые шкафы, посудомоечные машины, газовые<br> и электрические плиты, варочные панели, СВЧ, настольные духовки, вытяжки)</p>
+                @@include('../components/button.html', {
+                    "href": "#",
+                    "class": "popular__btn button--blue button--without-icon",
+                    "text": "Посмотреть весь каталог"
+                })
+            </div>
+            <div class="popular__column">
+                <div class="popular__slider popular-slider">
+                    <div class="popular-slider__swiper swiper">
+                        <div class="popular-slider__wrapper swiper-wrapper">
+                            @@include('../components/product-card-slider.html', {
+                                "class": "swiper-slide"
+                            })
+                            @@include('../components/product-card-slider.html', {
+                                "class": "swiper-slide"
+                            })
+                            @@include('../components/product-card-slider.html', {
+                                "class": "swiper-slide"
+                            })
+                            @@include('../components/product-card-slider.html', {
+                                "class": "swiper-slide"
+                            })
+                            @@include('../components/product-card-slider.html', {
+                                "class": "swiper-slide"
+                            })
+                        </div>
+                    </div>
+                    <div class="popular-slider__nav popular-slider-nav">
+                        <a href="#" class="popular-slider-nav__item popular-slider-nav__item--prev"></a>
+                        <a href="#" class="popular-slider-nav__item popular-slider-nav__item--next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

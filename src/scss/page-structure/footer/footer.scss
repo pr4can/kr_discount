@@ -1,0 +1,61 @@
+@import "../../colors";
+
+.footer {
+    padding: 4rem 0;
+    background: $dark-blue;
+    @media screen and (max-width: 568px) {
+        padding: 2.4rem 0;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media screen and (max-width: 568px) {
+            flex-direction: column;
+            gap: 3rem;
+        }
+    }
+    &__logo {
+        & > img {
+            width: 20.8rem;
+            @media screen and (max-width: 568px) {
+                width: 16.2rem;
+            }
+        }
+    }
+    &__develop {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        color: $white-100;
+        margin: 0;
+        @media screen and (max-width: 568px) {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+        }
+        & > a {
+            position: relative;
+            font: inherit;
+            font-weight: 500;
+            color: inherit;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -0.2rem;
+                left: auto;
+                right: 0;
+                width: 0%;
+                height: 0.2rem;
+                background: $white-100;
+                transition: 0.3s width, 0.3s left, 0.3s right;
+            }
+            &:hover {
+                &::after {
+                    width: 100%;
+                    left: 0;
+                    right: auto;
+                }
+            }
+        }
+    }
+}

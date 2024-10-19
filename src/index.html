@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/page-structure/head.html', {
+        "title": "Дисконт бытовой техники в Краснодаре",
+        "keywords": "Дисконт, Бытовая техника, Краснодар, Скидки, Распродажа, Электроника, Гарантия, Матрасы, Утюги, Кухонные приборы, Холодильники, Стиральные машины, Посудомоечные машины, Микроволновые печи, Кофеварки, Кондиционеры, Пылесосы, Плиты, Телевизоры, Микроволновые печи, Печи, Вытяжки",
+        "description": "Краснодар-Дисконт крупнейший магазин-склад уцененной бытовой техники в Краснодарском крае. Гарантия на товар 1 год",
+        "site_name": "Краснодар Дисконт",
+        "url": "https://krasnodar-diskont.ru",
+        "styleFile": "@css/style.min.css"
+    })
+    <body>
+        @@include('html/page-structure/header-main.html')
+        <main>
+            @@include('html/sections/banner.html')
+            <div class="spacing-block"></div>
+            @@include('html/sections/popular.html')
+            <div class="spacing-block"></div>
+            @@include('html/sections/advantages.html')     
+            <div class="spacing-block"></div>
+            @@include('html/sections/contacts.html')
+        </main>
+        @@include('html/page-structure/footer.html', {
+            "script": "@js/app.min.js"
+        })
+    </body>
+</html>

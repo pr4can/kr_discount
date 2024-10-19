@@ -1,0 +1,91 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+  -webkit-transition: 0.2s background;
+  transition: 0.2s background;
+}
+
+.button--white {
+  background: rgb(255, 255, 255);
+}
+
+.button--white:hover {
+  background: #0F345C;
+}
+
+.button--white:hover > .button__text {
+  color: rgb(255, 255, 255);
+}
+
+.button--white > .button__text {
+  color: #2E869C;
+}
+
+.button--blue {
+  background: #2E869C;
+}
+
+.button--blue:hover {
+  background: #0F345C;
+}
+
+.button--blue > .button__text {
+  color: rgb(255, 255, 255);
+}
+
+.button--border {
+  padding: 1.8rem 3.8rem;
+  background: transparent;
+  border: 0.2rem solid rgb(255, 255, 255);
+}
+
+.button--border:hover {
+  background: rgb(255, 255, 255);
+}
+
+.button--border:hover > .button__text {
+  color: #2E869C;
+}
+
+.button--border > .button__text {
+  color: rgb(255, 255, 255);
+}
+
+.button--without-icon > .button__icon {
+  display: none;
+}
+
+.button__text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.button__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+@media screen and (max-width: 568px) {
+  .button {
+    padding: 1.2rem 1.8rem;
+    border-radius: 1rem;
+  }
+
+  .button--border {
+    padding: 1rem 1.6rem;
+  }
+}

@@ -1,0 +1,10 @@
+@import "main";
+@import "./page-structure/page-structure";
+@import "./sections/sections";
+
+main {
+    margin-top: -12rem;
+    @media screen and (max-width: 568px) {
+        margin-top: -8.15rem;
+    }
+}

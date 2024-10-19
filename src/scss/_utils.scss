@@ -1,0 +1,2457 @@
+.p {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding: 0;
+            }
+            &-2 {
+                padding: 0.2rem;
+            }
+            &-4 {
+                padding: 0.4rem;
+            }
+            &-6 {
+                padding: 0.6rem;
+            }
+            &-8 {
+                padding: 0.8rem;
+            }
+            &-10 {
+                padding: 1rem;
+            }
+            &-12 {
+                padding: 1.2rem;
+            }
+            &-16 {
+                padding: 1.6rem;
+            }
+            &-20 {
+                padding: 2rem;
+            }
+            &-24 {
+                padding: 2.4rem;
+            }
+            &-28 {
+                padding: 2.8rem;
+            }
+            &-32 {
+                padding: 3.2rem;
+            }
+            &-36 {
+                padding: 3.6rem;
+            }
+            &-40 {
+                padding: 4rem;
+            }
+            &-44 {
+                padding: 4.4rem;
+            }
+            &-48 {
+                padding: 4.8rem;
+            }
+            &-56 {
+                padding: 5.6rem;
+            }
+            &-64 {
+                padding: 6.4rem;
+            }
+            &-80 {
+                padding: 8rem;
+            }
+            &-96 {
+                padding: 9.6rem;
+            }
+            &-104 {
+                padding: 10.4rem;
+            }
+            &-112 {
+                padding: 11.2rem;
+            }
+            &-120 {
+                padding: 12rem;
+            }
+            &-128 {
+                padding: 12.8rem;
+            }
+            &-144 {
+                padding: 14.4rem;
+            }
+            &-160 {
+                padding: 16rem;
+            }
+            &-200 {
+                padding: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding: 0;
+            }
+            &-2 {
+                padding: 0.2rem;
+            }
+            &-4 {
+                padding: 0.4rem;
+            }
+            &-6 {
+                padding: 0.6rem;
+            }
+            &-8 {
+                padding: 0.8rem;
+            }
+            &-10 {
+                padding: 1rem;
+            }
+            &-12 {
+                padding: 1.2rem;
+            }
+            &-16 {
+                padding: 1.6rem;
+            }
+            &-20 {
+                padding: 2rem;
+            }
+            &-24 {
+                padding: 2.4rem;
+            }
+            &-28 {
+                padding: 2.8rem;
+            }
+            &-32 {
+                padding: 3.2rem;
+            }
+            &-36 {
+                padding: 3.6rem;
+            }
+            &-40 {
+                padding: 4rem;
+            }
+            &-44 {
+                padding: 4.4rem;
+            }
+            &-48 {
+                padding: 4.8rem;
+            }
+            &-56 {
+                padding: 5.6rem;
+            }
+            &-64 {
+                padding: 6.4rem;
+            }
+            &-80 {
+                padding: 8rem;
+            }
+            &-96 {
+                padding: 9.6rem;
+            }
+            &-104 {
+                padding: 10.4rem;
+            }
+            &-112 {
+                padding: 11.2rem;
+            }
+            &-120 {
+                padding: 12rem;
+            }
+            &-128 {
+                padding: 12.8rem;
+            }
+            &-144 {
+                padding: 14.4rem;
+            }
+            &-160 {
+                padding: 16rem;
+            }
+            &-200 {
+                padding: 20rem;
+            }
+        }
+    }
+}
+
+.pt {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding-top: 0;
+            }
+            &-2 {
+                padding-top: 0.2rem;
+            }
+            &-4 {
+                padding-top: 0.4rem;
+            }
+            &-6 {
+                padding-top: 0.6rem;
+            }
+            &-8 {
+                padding-top: 0.8rem;
+            }
+            &-10 {
+                padding-top: 1rem;
+            }
+            &-12 {
+                padding-top: 1.2rem;
+            }
+            &-16 {
+                padding-top: 1.6rem;
+            }
+            &-20 {
+                padding-top: 2rem;
+            }
+            &-24 {
+                padding-top: 2.4rem;
+            }
+            &-28 {
+                padding-top: 2.8rem;
+            }
+            &-32 {
+                padding-top: 3.2rem;
+            }
+            &-36 {
+                padding-top: 3.6rem;
+            }
+            &-40 {
+                padding-top: 4rem;
+            }
+            &-44 {
+                padding-top: 4.4rem;
+            }
+            &-48 {
+                padding-top: 4.8rem;
+            }
+            &-56 {
+                padding-top: 5.6rem;
+            }
+            &-64 {
+                padding-top: 6.4rem;
+            }
+            &-80 {
+                padding-top: 8rem;
+            }
+            &-96 {
+                padding-top: 9.6rem;
+            }
+            &-104 {
+                padding-top: 10.4rem;
+            }
+            &-112 {
+                padding-top: 11.2rem;
+            }
+            &-120 {
+                padding-top: 12rem;
+            }
+            &-128 {
+                padding-top: 12.8rem;
+            }
+            &-144 {
+                padding-top: 14.4rem;
+            }
+            &-160 {
+                padding-top: 16rem;
+            }
+            &-200 {
+                padding-top: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding-top: 0;
+            }
+            &-2 {
+                padding-top: 0.2rem;
+            }
+            &-4 {
+                padding-top: 0.4rem;
+            }
+            &-6 {
+                padding-top: 0.6rem;
+            }
+            &-8 {
+                padding-top: 0.8rem;
+            }
+            &-10 {
+                padding-top: 1rem;
+            }
+            &-12 {
+                padding-top: 1.2rem;
+            }
+            &-16 {
+                padding-top: 1.6rem;
+            }
+            &-20 {
+                padding-top: 2rem;
+            }
+            &-24 {
+                padding-top: 2.4rem;
+            }
+            &-28 {
+                padding-top: 2.8rem;
+            }
+            &-32 {
+                padding-top: 3.2rem;
+            }
+            &-36 {
+                padding-top: 3.6rem;
+            }
+            &-40 {
+                padding-top: 4rem;
+            }
+            &-44 {
+                padding-top: 4.4rem;
+            }
+            &-48 {
+                padding-top: 4.8rem;
+            }
+            &-56 {
+                padding-top: 5.6rem;
+            }
+            &-64 {
+                padding-top: 6.4rem;
+            }
+            &-80 {
+                padding-top: 8rem;
+            }
+            &-96 {
+                padding-top: 9.6rem;
+            }
+            &-104 {
+                padding-top: 10.4rem;
+            }
+            &-112 {
+                padding-top: 11.2rem;
+            }
+            &-120 {
+                padding-top: 12rem;
+            }
+            &-128 {
+                padding-top: 12.8rem;
+            }
+            &-144 {
+                padding-top: 14.4rem;
+            }
+            &-160 {
+                padding-top: 16rem;
+            }
+            &-200 {
+                padding-top: 20rem;
+            }
+        }
+    }
+}
+
+.pb {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding-bottom: 0;
+            }
+            &-2 {
+                padding-bottom: 0.2rem;
+            }
+            &-4 {
+                padding-bottom: 0.4rem;
+            }
+            &-6 {
+                padding-bottom: 0.6rem;
+            }
+            &-8 {
+                padding-bottom: 0.8rem;
+            }
+            &-10 {
+                padding-bottom: 1rem;
+            }
+            &-12 {
+                padding-bottom: 1.2rem;
+            }
+            &-16 {
+                padding-bottom: 1.6rem;
+            }
+            &-20 {
+                padding-bottom: 2rem;
+            }
+            &-24 {
+                padding-bottom: 2.4rem;
+            }
+            &-28 {
+                padding-bottom: 2.8rem;
+            }
+            &-32 {
+                padding-bottom: 3.2rem;
+            }
+            &-36 {
+                padding-bottom: 3.6rem;
+            }
+            &-40 {
+                padding-bottom: 4rem;
+            }
+            &-44 {
+                padding-bottom: 4.4rem;
+            }
+            &-48 {
+                padding-bottom: 4.8rem;
+            }
+            &-56 {
+                padding-bottom: 5.6rem;
+            }
+            &-64 {
+                padding-bottom: 6.4rem;
+            }
+            &-80 {
+                padding-bottom: 8rem;
+            }
+            &-96 {
+                padding-bottom: 9.6rem;
+            }
+            &-104 {
+                padding-bottom: 10.4rem;
+            }
+            &-112 {
+                padding-bottom: 11.2rem;
+            }
+            &-120 {
+                padding-bottom: 12rem;
+            }
+            &-128 {
+                padding-bottom: 12.8rem;
+            }
+            &-144 {
+                padding-bottom: 14.4rem;
+            }
+            &-160 {
+                padding-bottom: 16rem;
+            }
+            &-200 {
+                padding-bottom: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding-bottom: 0;
+            }
+            &-2 {
+                padding-bottom: 0.2rem;
+            }
+            &-4 {
+                padding-bottom: 0.4rem;
+            }
+            &-6 {
+                padding-bottom: 0.6rem;
+            }
+            &-8 {
+                padding-bottom: 0.8rem;
+            }
+            &-10 {
+                padding-bottom: 1rem;
+            }
+            &-12 {
+                padding-bottom: 1.2rem;
+            }
+            &-16 {
+                padding-bottom: 1.6rem;
+            }
+            &-20 {
+                padding-bottom: 2rem;
+            }
+            &-24 {
+                padding-bottom: 2.4rem;
+            }
+            &-28 {
+                padding-bottom: 2.8rem;
+            }
+            &-32 {
+                padding-bottom: 3.2rem;
+            }
+            &-36 {
+                padding-bottom: 3.6rem;
+            }
+            &-40 {
+                padding-bottom: 4rem;
+            }
+            &-44 {
+                padding-bottom: 4.4rem;
+            }
+            &-48 {
+                padding-bottom: 4.8rem;
+            }
+            &-56 {
+                padding-bottom: 5.6rem;
+            }
+            &-64 {
+                padding-bottom: 6.4rem;
+            }
+            &-80 {
+                padding-bottom: 8rem;
+            }
+            &-96 {
+                padding-bottom: 9.6rem;
+            }
+            &-104 {
+                padding-bottom: 10.4rem;
+            }
+            &-112 {
+                padding-bottom: 11.2rem;
+            }
+            &-120 {
+                padding-bottom: 12rem;
+            }
+            &-128 {
+                padding-bottom: 12.8rem;
+            }
+            &-144 {
+                padding-bottom: 14.4rem;
+            }
+            &-160 {
+                padding-bottom: 16rem;
+            }
+            &-200 {
+                padding-bottom: 20rem;
+            }
+        }
+    }
+}
+
+.pl {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding-left: 0;
+            }
+            &-2 {
+                padding-left: 0.2rem;
+            }
+            &-4 {
+                padding-left: 0.4rem;
+            }
+            &-6 {
+                padding-left: 0.6rem;
+            }
+            &-8 {
+                padding-left: 0.8rem;
+            }
+            &-10 {
+                padding-left: 1rem;
+            }
+            &-12 {
+                padding-left: 1.2rem;
+            }
+            &-16 {
+                padding-left: 1.6rem;
+            }
+            &-20 {
+                padding-left: 2rem;
+            }
+            &-24 {
+                padding-left: 2.4rem;
+            }
+            &-28 {
+                padding-left: 2.8rem;
+            }
+            &-32 {
+                padding-left: 3.2rem;
+            }
+            &-36 {
+                padding-left: 3.6rem;
+            }
+            &-40 {
+                padding-left: 4rem;
+            }
+            &-44 {
+                padding-left: 4.4rem;
+            }
+            &-48 {
+                padding-left: 4.8rem;
+            }
+            &-56 {
+                padding-left: 5.6rem;
+            }
+            &-64 {
+                padding-left: 6.4rem;
+            }
+            &-80 {
+                padding-left: 8rem;
+            }
+            &-96 {
+                padding-left: 9.6rem;
+            }
+            &-104 {
+                padding-left: 10.4rem;
+            }
+            &-112 {
+                padding-left: 11.2rem;
+            }
+            &-120 {
+                padding-left: 12rem;
+            }
+            &-128 {
+                padding-left: 12.8rem;
+            }
+            &-144 {
+                padding-left: 14.4rem;
+            }
+            &-160 {
+                padding-left: 16rem;
+            }
+            &-200 {
+                padding-left: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding-left: 0;
+            }
+            &-2 {
+                padding-left: 0.2rem;
+            }
+            &-4 {
+                padding-left: 0.4rem;
+            }
+            &-6 {
+                padding-left: 0.6rem;
+            }
+            &-8 {
+                padding-left: 0.8rem;
+            }
+            &-10 {
+                padding-left: 1rem;
+            }
+            &-12 {
+                padding-left: 1.2rem;
+            }
+            &-16 {
+                padding-left: 1.6rem;
+            }
+            &-20 {
+                padding-left: 2rem;
+            }
+            &-24 {
+                padding-left: 2.4rem;
+            }
+            &-28 {
+                padding-left: 2.8rem;
+            }
+            &-32 {
+                padding-left: 3.2rem;
+            }
+            &-36 {
+                padding-left: 3.6rem;
+            }
+            &-40 {
+                padding-left: 4rem;
+            }
+            &-44 {
+                padding-left: 4.4rem;
+            }
+            &-48 {
+                padding-left: 4.8rem;
+            }
+            &-56 {
+                padding-left: 5.6rem;
+            }
+            &-64 {
+                padding-left: 6.4rem;
+            }
+            &-80 {
+                padding-left: 8rem;
+            }
+            &-96 {
+                padding-left: 9.6rem;
+            }
+            &-104 {
+                padding-left: 10.4rem;
+            }
+            &-112 {
+                padding-left: 11.2rem;
+            }
+            &-120 {
+                padding-left: 12rem;
+            }
+            &-128 {
+                padding-left: 12.8rem;
+            }
+            &-144 {
+                padding-left: 14.4rem;
+            }
+            &-160 {
+                padding-left: 16rem;
+            }
+            &-200 {
+                padding-left: 20rem;
+            }
+        }
+    }
+}
+
+.pr {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding-right: 0;
+            }
+            &-2 {
+                padding-right: 0.2rem;
+            }
+            &-4 {
+                padding-right: 0.4rem;
+            }
+            &-6 {
+                padding-right: 0.6rem;
+            }
+            &-8 {
+                padding-right: 0.8rem;
+            }
+            &-10 {
+                padding-right: 1rem;
+            }
+            &-12 {
+                padding-right: 1.2rem;
+            }
+            &-16 {
+                padding-right: 1.6rem;
+            }
+            &-20 {
+                padding-right: 2rem;
+            }
+            &-24 {
+                padding-right: 2.4rem;
+            }
+            &-28 {
+                padding-right: 2.8rem;
+            }
+            &-32 {
+                padding-right: 3.2rem;
+            }
+            &-36 {
+                padding-right: 3.6rem;
+            }
+            &-40 {
+                padding-right: 4rem;
+            }
+            &-44 {
+                padding-right: 4.4rem;
+            }
+            &-48 {
+                padding-right: 4.8rem;
+            }
+            &-56 {
+                padding-right: 5.6rem;
+            }
+            &-64 {
+                padding-right: 6.4rem;
+            }
+            &-80 {
+                padding-right: 8rem;
+            }
+            &-96 {
+                padding-right: 9.6rem;
+            }
+            &-104 {
+                padding-right: 10.4rem;
+            }
+            &-112 {
+                padding-right: 11.2rem;
+            }
+            &-120 {
+                padding-right: 12rem;
+            }
+            &-128 {
+                padding-right: 12.8rem;
+            }
+            &-144 {
+                padding-right: 14.4rem;
+            }
+            &-160 {
+                padding-right: 16rem;
+            }
+            &-200 {
+                padding-right: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding-right: 0;
+            }
+            &-2 {
+                padding-right: 0.2rem;
+            }
+            &-4 {
+                padding-right: 0.4rem;
+            }
+            &-6 {
+                padding-right: 0.6rem;
+            }
+            &-8 {
+                padding-right: 0.8rem;
+            }
+            &-10 {
+                padding-right: 1rem;
+            }
+            &-12 {
+                padding-right: 1.2rem;
+            }
+            &-16 {
+                padding-right: 1.6rem;
+            }
+            &-20 {
+                padding-right: 2rem;
+            }
+            &-24 {
+                padding-right: 2.4rem;
+            }
+            &-28 {
+                padding-right: 2.8rem;
+            }
+            &-32 {
+                padding-right: 3.2rem;
+            }
+            &-36 {
+                padding-right: 3.6rem;
+            }
+            &-40 {
+                padding-right: 4rem;
+            }
+            &-44 {
+                padding-right: 4.4rem;
+            }
+            &-48 {
+                padding-right: 4.8rem;
+            }
+            &-56 {
+                padding-right: 5.6rem;
+            }
+            &-64 {
+                padding-right: 6.4rem;
+            }
+            &-80 {
+                padding-right: 8rem;
+            }
+            &-96 {
+                padding-right: 9.6rem;
+            }
+            &-104 {
+                padding-right: 10.4rem;
+            }
+            &-112 {
+                padding-right: 11.2rem;
+            }
+            &-120 {
+                padding-right: 12rem;
+            }
+            &-128 {
+                padding-right: 12.8rem;
+            }
+            &-144 {
+                padding-right: 14.4rem;
+            }
+            &-160 {
+                padding-right: 16rem;
+            }
+            &-200 {
+                padding-right: 20rem;
+            }
+        }
+    }
+}
+
+.px {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding: 0;
+            }
+            &-2 {
+                padding: 0 0.2rem;
+            }
+            &-4 {
+                padding: 0 0.4rem;
+            }
+            &-6 {
+                padding: 0 0.6rem;
+            }
+            &-8 {
+                padding: 0 0.8rem;
+            }
+            &-10 {
+                padding: 0 1rem;
+            }
+            &-12 {
+                padding: 0 1.2rem;
+            }
+            &-16 {
+                padding: 0 1.6rem;
+            }
+            &-20 {
+                padding: 0 2rem;
+            }
+            &-24 {
+                padding: 0 2.4rem;
+            }
+            &-28 {
+                padding: 0 2.8rem;
+            }
+            &-32 {
+                padding: 0 3.2rem;
+            }
+            &-36 {
+                padding: 0 3.6rem;
+            }
+            &-40 {
+                padding: 0 4rem;
+            }
+            &-44 {
+                padding: 0 4.4rem;
+            }
+            &-48 {
+                padding: 0 4.8rem;
+            }
+            &-56 {
+                padding: 0 5.6rem;
+            }
+            &-64 {
+                padding: 0 6.4rem;
+            }
+            &-80 {
+                padding: 0 8rem;
+            }
+            &-96 {
+                padding: 0 9.6rem;
+            }
+            &-104 {
+                padding: 0 10.4rem;
+            }
+            &-112 {
+                padding: 0 11.2rem;
+            }
+            &-120 {
+                padding: 0 12rem;
+            }
+            &-128 {
+                padding: 0 12.8rem;
+            }
+            &-144 {
+                padding: 0 14.4rem;
+            }
+            &-160 {
+                padding: 0 16rem;
+            }
+            &-200 {
+                padding: 0 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding: 0 0;
+            }
+            &-2 {
+                padding: 0 0.2rem;
+            }
+            &-4 {
+                padding: 0 0.4rem;
+            }
+            &-6 {
+                padding: 0 0.6rem;
+            }
+            &-8 {
+                padding: 0 0.8rem;
+            }
+            &-10 {
+                padding: 0 1rem;
+            }
+            &-12 {
+                padding: 0 1.2rem;
+            }
+            &-16 {
+                padding: 0 1.6rem;
+            }
+            &-20 {
+                padding: 0 2rem;
+            }
+            &-24 {
+                padding: 0 2.4rem;
+            }
+            &-28 {
+                padding: 0 2.8rem;
+            }
+            &-32 {
+                padding: 0 3.2rem;
+            }
+            &-36 {
+                padding: 0 3.6rem;
+            }
+            &-40 {
+                padding: 0 4rem;
+            }
+            &-44 {
+                padding: 0 4.4rem;
+            }
+            &-48 {
+                padding: 0 4.8rem;
+            }
+            &-56 {
+                padding: 0 5.6rem;
+            }
+            &-64 {
+                padding: 0 6.4rem;
+            }
+            &-80 {
+                padding: 0 8rem;
+            }
+            &-96 {
+                padding: 0 9.6rem;
+            }
+            &-104 {
+                padding: 0 10.4rem;
+            }
+            &-112 {
+                padding: 0 11.2rem;
+            }
+            &-120 {
+                padding: 0 12rem;
+            }
+            &-128 {
+                padding: 0 12.8rem;
+            }
+            &-144 {
+                padding: 0 14.4rem;
+            }
+            &-160 {
+                padding: 0 16rem;
+            }
+            &-200 {
+                padding: 0 20rem;
+            }
+        }
+    }
+}
+
+.py {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                padding: 0;
+            }
+            &-2 {
+                padding: 0.2rem 0;
+            }
+            &-4 {
+                padding: 0.4rem 0;
+            }
+            &-6 {
+                padding: 0.6rem 0;
+            }
+            &-8 {
+                padding: 0.8rem 0;
+            }
+            &-10 {
+                padding: 1rem 0;
+            }
+            &-12 {
+                padding: 1.2rem 0;
+            }
+            &-16 {
+                padding: 1.6rem 0;
+            }
+            &-20 {
+                padding: 2rem 0;
+            }
+            &-24 {
+                padding: 2.4rem 0;
+            }
+            &-28 {
+                padding: 2.8rem 0;
+            }
+            &-32 {
+                padding: 3.2rem 0;
+            }
+            &-36 {
+                padding: 3.6rem 0;
+            }
+            &-40 {
+                padding: 4rem 0;
+            }
+            &-44 {
+                padding: 4.4rem 0;
+            }
+            &-48 {
+                padding: 4.8rem 0;
+            }
+            &-56 {
+                padding: 5.6rem 0;
+            }
+            &-64 {
+                padding: 6.4rem 0;
+            }
+            &-80 {
+                padding: 8rem 0;
+            }
+            &-96 {
+                padding: 9.6rem 0;
+            }
+            &-104 {
+                padding: 10.4rem 0;
+            }
+            &-112 {
+                padding: 11.2rem 0;
+            }
+            &-120 {
+                padding: 12rem 0;
+            }
+            &-128 {
+                padding: 12.8rem 0;
+            }
+            &-144 {
+                padding: 14.4rem 0;
+            }
+            &-160 {
+                padding: 16rem 0;
+            }
+            &-200 {
+                padding: 20rem 0;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                padding: 0;
+            }
+            &-2 {
+                padding: 0.2rem 0;
+            }
+            &-4 {
+                padding: 0.4rem 0;
+            }
+            &-6 {
+                padding: 0.6rem 0;
+            }
+            &-8 {
+                padding: 0.8rem 0;
+            }
+            &-10 {
+                padding: 1rem 0;
+            }
+            &-12 {
+                padding: 1.2rem 0;
+            }
+            &-16 {
+                padding: 1.6rem 0;
+            }
+            &-20 {
+                padding: 2rem 0;
+            }
+            &-24 {
+                padding: 2.4rem 0;
+            }
+            &-28 {
+                padding: 2.8rem 0;
+            }
+            &-32 {
+                padding: 3.2rem 0;
+            }
+            &-36 {
+                padding: 3.6rem 0;
+            }
+            &-40 {
+                padding: 4rem 0;
+            }
+            &-44 {
+                padding: 4.4rem 0;
+            }
+            &-48 {
+                padding: 4.8rem 0;
+            }
+            &-56 {
+                padding: 5.6rem 0;
+            }
+            &-64 {
+                padding: 6.4rem 0;
+            }
+            &-80 {
+                padding: 8rem 0;
+            }
+            &-96 {
+                padding: 9.6rem 0;
+            }
+            &-104 {
+                padding: 10.4rem 0;
+            }
+            &-112 {
+                padding: 11.2rem 0;
+            }
+            &-120 {
+                padding: 12rem 0;
+            }
+            &-128 {
+                padding: 12.8rem 0;
+            }
+            &-144 {
+                padding: 14.4rem 0;
+            }
+            &-160 {
+                padding: 16rem 0;
+            }
+            &-200 {
+                padding: 20rem 0;
+            }
+        }
+    }
+}
+
+.m {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-0 {
+                margin: 0;
+            }
+            &-2 {
+                margin: 0.2rem;
+            }
+            &-4 {
+                margin: 0.4rem;
+            }
+            &-6 {
+                margin: 0.6rem;
+            }
+            &-8 {
+                margin: 0.8rem;
+            }
+            &-10 {
+                margin: 1rem;
+            }
+            &-12 {
+                margin: 1.2rem;
+            }
+            &-16 {
+                margin: 1.6rem;
+            }
+            &-20 {
+                margin: 2rem;
+            }
+            &-24 {
+                margin: 2.4rem;
+            }
+            &-28 {
+                margin: 2.8rem;
+            }
+            &-32 {
+                margin: 3.2rem;
+            }
+            &-36 {
+                margin: 3.6rem;
+            }
+            &-40 {
+                margin: 4rem;
+            }
+            &-44 {
+                margin: 4.4rem;
+            }
+            &-48 {
+                margin: 4.8rem;
+            }
+            &-56 {
+                margin: 5.6rem;
+            }
+            &-64 {
+                margin: 6.4rem;
+            }
+            &-80 {
+                margin: 8rem;
+            }
+            &-96 {
+                margin: 9.6rem;
+            }
+            &-104 {
+                margin: 10.4rem;
+            }
+            &-112 {
+                margin: 11.2rem;
+            }
+            &-120 {
+                margin: 12rem;
+            }
+            &-128 {
+                margin: 12.8rem;
+            }
+            &-144 {
+                margin: 14.4rem;
+            }
+            &-160 {
+                margin: 16rem;
+            }
+            &-200 {
+                margin: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-0 {
+                margin: 0;
+            }
+            &-2 {
+                margin: 0.2rem;
+            }
+            &-4 {
+                margin: 0.4rem;
+            }
+            &-6 {
+                margin: 0.6rem;
+            }
+            &-8 {
+                margin: 0.8rem;
+            }
+            &-10 {
+                margin: 1rem;
+            }
+            &-12 {
+                margin: 1.2rem;
+            }
+            &-16 {
+                margin: 1.6rem;
+            }
+            &-20 {
+                margin: 2rem;
+            }
+            &-24 {
+                margin: 2.4rem;
+            }
+            &-28 {
+                margin: 2.8rem;
+            }
+            &-32 {
+                margin: 3.2rem;
+            }
+            &-36 {
+                margin: 3.6rem;
+            }
+            &-40 {
+                margin: 4rem;
+            }
+            &-44 {
+                margin: 4.4rem;
+            }
+            &-48 {
+                margin: 4.8rem;
+            }
+            &-56 {
+                margin: 5.6rem;
+            }
+            &-64 {
+                margin: 6.4rem;
+            }
+            &-80 {
+                margin: 8rem;
+            }
+            &-96 {
+                margin: 9.6rem;
+            }
+            &-104 {
+                margin: 10.4rem;
+            }
+            &-112 {
+                margin: 11.2rem;
+            }
+            &-120 {
+                margin: 12rem;
+            }
+            &-128 {
+                margin: 12.8rem;
+            }
+            &-144 {
+                margin: 14.4rem;
+            }
+            &-160 {
+                margin: 16rem;
+            }
+            &-200 {
+                margin: 20rem;
+            }
+        }
+    }
+}
+
+.mt {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin-top: auto;
+            }
+            &-0 {
+                margin-top: 0;
+            }
+            &-2 {
+                margin-top: 0.2rem;
+            }
+            &-4 {
+                margin-top: 0.4rem;
+            }
+            &-6 {
+                margin-top: 0.6rem;
+            }
+            &-8 {
+                margin-top: 0.8rem;
+            }
+            &-10 {
+                margin-top: 1rem;
+            }
+            &-12 {
+                margin-top: 1.2rem;
+            }
+            &-16 {
+                margin-top: 1.6rem;
+            }
+            &-20 {
+                margin-top: 2rem;
+            }
+            &-24 {
+                margin-top: 2.4rem;
+            }
+            &-28 {
+                margin-top: 2.8rem;
+            }
+            &-32 {
+                margin-top: 3.2rem;
+            }
+            &-36 {
+                margin-top: 3.6rem;
+            }
+            &-40 {
+                margin-top: 4rem;
+            }
+            &-44 {
+                margin-top: 4.4rem;
+            }
+            &-48 {
+                margin-top: 4.8rem;
+            }
+            &-56 {
+                margin-top: 5.6rem;
+            }
+            &-64 {
+                margin-top: 6.4rem;
+            }
+            &-80 {
+                margin-top: 8rem;
+            }
+            &-96 {
+                margin-top: 9.6rem;
+            }
+            &-104 {
+                margin-top: 10.4rem;
+            }
+            &-112 {
+                margin-top: 11.2rem;
+            }
+            &-120 {
+                margin-top: 12rem;
+            }
+            &-128 {
+                margin-top: 12.8rem;
+            }
+            &-144 {
+                margin-top: 14.4rem;
+            }
+            &-160 {
+                margin-top: 16rem;
+            }
+            &-200 {
+                margin-top: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin-top: auto;
+            }
+            &-0 {
+                margin-top: 0;
+            }
+            &-2 {
+                margin-top: 0.2rem;
+            }
+            &-4 {
+                margin-top: 0.4rem;
+            }
+            &-6 {
+                margin-top: 0.6rem;
+            }
+            &-8 {
+                margin-top: 0.8rem;
+            }
+            &-10 {
+                margin-top: 1rem;
+            }
+            &-12 {
+                margin-top: 1.2rem;
+            }
+            &-16 {
+                margin-top: 1.6rem;
+            }
+            &-20 {
+                margin-top: 2rem;
+            }
+            &-24 {
+                margin-top: 2.4rem;
+            }
+            &-28 {
+                margin-top: 2.8rem;
+            }
+            &-32 {
+                margin-top: 3.2rem;
+            }
+            &-36 {
+                margin-top: 3.6rem;
+            }
+            &-40 {
+                margin-top: 4rem;
+            }
+            &-44 {
+                margin-top: 4.4rem;
+            }
+            &-48 {
+                margin-top: 4.8rem;
+            }
+            &-56 {
+                margin-top: 5.6rem;
+            }
+            &-64 {
+                margin-top: 6.4rem;
+            }
+            &-80 {
+                margin-top: 8rem;
+            }
+            &-96 {
+                margin-top: 9.6rem;
+            }
+            &-104 {
+                margin-top: 10.4rem;
+            }
+            &-112 {
+                margin-top: 11.2rem;
+            }
+            &-120 {
+                margin-top: 12rem;
+            }
+            &-128 {
+                margin-top: 12.8rem;
+            }
+            &-144 {
+                margin-top: 14.4rem;
+            }
+            &-160 {
+                margin-top: 16rem;
+            }
+            &-200 {
+                margin-top: 20rem;
+            }
+        }
+    }
+}
+
+.mb {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin-bottom: auto;
+            }
+            &-0 {
+                margin-bottom: 0;
+            }
+            &-2 {
+                margin-bottom: 0.2rem;
+            }
+            &-4 {
+                margin-bottom: 0.4rem;
+            }
+            &-6 {
+                margin-bottom: 0.6rem;
+            }
+            &-8 {
+                margin-bottom: 0.8rem;
+            }
+            &-10 {
+                margin-bottom: 1rem;
+            }
+            &-12 {
+                margin-bottom: 1.2rem;
+            }
+            &-16 {
+                margin-bottom: 1.6rem;
+            }
+            &-20 {
+                margin-bottom: 2rem;
+            }
+            &-24 {
+                margin-bottom: 2.4rem;
+            }
+            &-28 {
+                margin-bottom: 2.8rem;
+            }
+            &-32 {
+                margin-bottom: 3.2rem;
+            }
+            &-36 {
+                margin-bottom: 3.6rem;
+            }
+            &-40 {
+                margin-bottom: 4rem;
+            }
+            &-44 {
+                margin-bottom: 4.4rem;
+            }
+            &-48 {
+                margin-bottom: 4.8rem;
+            }
+            &-56 {
+                margin-bottom: 5.6rem;
+            }
+            &-64 {
+                margin-bottom: 6.4rem;
+            }
+            &-80 {
+                margin-bottom: 8rem;
+            }
+            &-96 {
+                margin-bottom: 9.6rem;
+            }
+            &-104 {
+                margin-bottom: 10.4rem;
+            }
+            &-112 {
+                margin-bottom: 11.2rem;
+            }
+            &-120 {
+                margin-bottom: 12rem;
+            }
+            &-128 {
+                margin-bottom: 12.8rem;
+            }
+            &-144 {
+                margin-bottom: 14.4rem;
+            }
+            &-160 {
+                margin-bottom: 16rem;
+            }
+            &-200 {
+                margin-bottom: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin-bottom: auto;
+            }
+            &-0 {
+                margin-bottom: 0;
+            }
+            &-2 {
+                margin-bottom: 0.2rem;
+            }
+            &-4 {
+                margin-bottom: 0.4rem;
+            }
+            &-6 {
+                margin-bottom: 0.6rem;
+            }
+            &-8 {
+                margin-bottom: 0.8rem;
+            }
+            &-10 {
+                margin-bottom: 1rem;
+            }
+            &-12 {
+                margin-bottom: 1.2rem;
+            }
+            &-16 {
+                margin-bottom: 1.6rem;
+            }
+            &-20 {
+                margin-bottom: 2rem;
+            }
+            &-24 {
+                margin-bottom: 2.4rem;
+            }
+            &-28 {
+                margin-bottom: 2.8rem;
+            }
+            &-32 {
+                margin-bottom: 3.2rem;
+            }
+            &-36 {
+                margin-bottom: 3.6rem;
+            }
+            &-40 {
+                margin-bottom: 4rem;
+            }
+            &-44 {
+                margin-bottom: 4.4rem;
+            }
+            &-48 {
+                margin-bottom: 4.8rem;
+            }
+            &-56 {
+                margin-bottom: 5.6rem;
+            }
+            &-64 {
+                margin-bottom: 6.4rem;
+            }
+            &-80 {
+                margin-bottom: 8rem;
+            }
+            &-96 {
+                margin-bottom: 9.6rem;
+            }
+            &-104 {
+                margin-bottom: 10.4rem;
+            }
+            &-112 {
+                margin-bottom: 11.2rem;
+            }
+            &-120 {
+                margin-bottom: 12rem;
+            }
+            &-128 {
+                margin-bottom: 12.8rem;
+            }
+            &-144 {
+                margin-bottom: 14.4rem;
+            }
+            &-160 {
+                margin-bottom: 16rem;
+            }
+            &-200 {
+                margin-bottom: 20rem;
+            }
+        }
+    }
+}
+
+.ml {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin-left: auto;
+            }
+            &-0 {
+                margin-left: 0;
+            }
+            &-2 {
+                margin-left: 0.2rem;
+            }
+            &-4 {
+                margin-left: 0.4rem;
+            }
+            &-6 {
+                margin-left: 0.6rem;
+            }
+            &-8 {
+                margin-left: 0.8rem;
+            }
+            &-10 {
+                margin-left: 1rem;
+            }
+            &-12 {
+                margin-left: 1.2rem;
+            }
+            &-16 {
+                margin-left: 1.6rem;
+            }
+            &-20 {
+                margin-left: 2rem;
+            }
+            &-24 {
+                margin-left: 2.4rem;
+            }
+            &-28 {
+                margin-left: 2.8rem;
+            }
+            &-32 {
+                margin-left: 3.2rem;
+            }
+            &-36 {
+                margin-left: 3.6rem;
+            }
+            &-40 {
+                margin-left: 4rem;
+            }
+            &-44 {
+                margin-left: 4.4rem;
+            }
+            &-48 {
+                margin-left: 4.8rem;
+            }
+            &-56 {
+                margin-left: 5.6rem;
+            }
+            &-64 {
+                margin-left: 6.4rem;
+            }
+            &-80 {
+                margin-left: 8rem;
+            }
+            &-96 {
+                margin-left: 9.6rem;
+            }
+            &-104 {
+                margin-left: 10.4rem;
+            }
+            &-112 {
+                margin-left: 11.2rem;
+            }
+            &-120 {
+                margin-left: 12rem;
+            }
+            &-128 {
+                margin-left: 12.8rem;
+            }
+            &-144 {
+                margin-left: 14.4rem;
+            }
+            &-160 {
+                margin-left: 16rem;
+            }
+            &-200 {
+                margin-left: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin-left: auto;
+            }
+            &-0 {
+                margin-left: 0;
+            }
+            &-2 {
+                margin-left: 0.2rem;
+            }
+            &-4 {
+                margin-left: 0.4rem;
+            }
+            &-6 {
+                margin-left: 0.6rem;
+            }
+            &-8 {
+                margin-left: 0.8rem;
+            }
+            &-10 {
+                margin-left: 1rem;
+            }
+            &-12 {
+                margin-left: 1.2rem;
+            }
+            &-16 {
+                margin-left: 1.6rem;
+            }
+            &-20 {
+                margin-left: 2rem;
+            }
+            &-24 {
+                margin-left: 2.4rem;
+            }
+            &-28 {
+                margin-left: 2.8rem;
+            }
+            &-32 {
+                margin-left: 3.2rem;
+            }
+            &-36 {
+                margin-left: 3.6rem;
+            }
+            &-40 {
+                margin-left: 4rem;
+            }
+            &-44 {
+                margin-left: 4.4rem;
+            }
+            &-48 {
+                margin-left: 4.8rem;
+            }
+            &-56 {
+                margin-left: 5.6rem;
+            }
+            &-64 {
+                margin-left: 6.4rem;
+            }
+            &-80 {
+                margin-left: 8rem;
+            }
+            &-96 {
+                margin-left: 9.6rem;
+            }
+            &-104 {
+                margin-left: 10.4rem;
+            }
+            &-112 {
+                margin-left: 11.2rem;
+            }
+            &-120 {
+                margin-left: 12rem;
+            }
+            &-128 {
+                margin-left: 12.8rem;
+            }
+            &-144 {
+                margin-left: 14.4rem;
+            }
+            &-160 {
+                margin-left: 16rem;
+            }
+            &-200 {
+                margin-left: 20rem;
+            }
+        }
+    }
+}
+
+.mr {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin-right: auto;
+            }
+            &-0 {
+                margin-right: 0;
+            }
+            &-2 {
+                margin-right: 0.2rem;
+            }
+            &-4 {
+                margin-right: 0.4rem;
+            }
+            &-6 {
+                margin-right: 0.6rem;
+            }
+            &-8 {
+                margin-right: 0.8rem;
+            }
+            &-10 {
+                margin-right: 1rem;
+            }
+            &-12 {
+                margin-right: 1.2rem;
+            }
+            &-16 {
+                margin-right: 1.6rem;
+            }
+            &-20 {
+                margin-right: 2rem;
+            }
+            &-24 {
+                margin-right: 2.4rem;
+            }
+            &-28 {
+                margin-right: 2.8rem;
+            }
+            &-32 {
+                margin-right: 3.2rem;
+            }
+            &-36 {
+                margin-right: 3.6rem;
+            }
+            &-40 {
+                margin-right: 4rem;
+            }
+            &-44 {
+                margin-right: 4.4rem;
+            }
+            &-48 {
+                margin-right: 4.8rem;
+            }
+            &-56 {
+                margin-right: 5.6rem;
+            }
+            &-64 {
+                margin-right: 6.4rem;
+            }
+            &-80 {
+                margin-right: 8rem;
+            }
+            &-96 {
+                margin-right: 9.6rem;
+            }
+            &-104 {
+                margin-right: 10.4rem;
+            }
+            &-112 {
+                margin-right: 11.2rem;
+            }
+            &-120 {
+                margin-right: 12rem;
+            }
+            &-128 {
+                margin-right: 12.8rem;
+            }
+            &-144 {
+                margin-right: 14.4rem;
+            }
+            &-160 {
+                margin-right: 16rem;
+            }
+            &-200 {
+                margin-right: 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin-right: auto;
+            }
+            &-0 {
+                margin-right: 0;
+            }
+            &-2 {
+                margin-right: 0.2rem;
+            }
+            &-4 {
+                margin-right: 0.4rem;
+            }
+            &-6 {
+                margin-right: 0.6rem;
+            }
+            &-8 {
+                margin-right: 0.8rem;
+            }
+            &-10 {
+                margin-right: 1rem;
+            }
+            &-12 {
+                margin-right: 1.2rem;
+            }
+            &-16 {
+                margin-right: 1.6rem;
+            }
+            &-20 {
+                margin-right: 2rem;
+            }
+            &-24 {
+                margin-right: 2.4rem;
+            }
+            &-28 {
+                margin-right: 2.8rem;
+            }
+            &-32 {
+                margin-right: 3.2rem;
+            }
+            &-36 {
+                margin-right: 3.6rem;
+            }
+            &-40 {
+                margin-right: 4rem;
+            }
+            &-44 {
+                margin-right: 4.4rem;
+            }
+            &-48 {
+                margin-right: 4.8rem;
+            }
+            &-56 {
+                margin-right: 5.6rem;
+            }
+            &-64 {
+                margin-right: 6.4rem;
+            }
+            &-80 {
+                margin-right: 8rem;
+            }
+            &-96 {
+                margin-right: 9.6rem;
+            }
+            &-104 {
+                margin-right: 10.4rem;
+            }
+            &-112 {
+                margin-right: 11.2rem;
+            }
+            &-120 {
+                margin-right: 12rem;
+            }
+            &-128 {
+                margin-right: 12.8rem;
+            }
+            &-144 {
+                margin-right: 14.4rem;
+            }
+            &-160 {
+                margin-right: 16rem;
+            }
+            &-200 {
+                margin-right: 20rem;
+            }
+        }
+    }
+}
+
+.mx {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin: 0 auto;
+            }
+            &-0 {
+                margin: 0;
+            }
+            &-2 {
+                margin: 0 0.2rem;
+            }
+            &-4 {
+                margin: 0 0.4rem;
+            }
+            &-6 {
+                margin: 0 0.6rem;
+            }
+            &-8 {
+                margin: 0 0.8rem;
+            }
+            &-10 {
+                margin: 0 1rem;
+            }
+            &-12 {
+                margin: 0 1.2rem;
+            }
+            &-16 {
+                margin: 0 1.6rem;
+            }
+            &-20 {
+                margin: 0 2rem;
+            }
+            &-24 {
+                margin: 0 2.4rem;
+            }
+            &-28 {
+                margin: 0 2.8rem;
+            }
+            &-32 {
+                margin: 0 3.2rem;
+            }
+            &-36 {
+                margin: 0 3.6rem;
+            }
+            &-40 {
+                margin: 0 4rem;
+            }
+            &-44 {
+                margin: 0 4.4rem;
+            }
+            &-48 {
+                margin: 0 4.8rem;
+            }
+            &-56 {
+                margin: 0 5.6rem;
+            }
+            &-64 {
+                margin: 0 6.4rem;
+            }
+            &-80 {
+                margin: 0 8rem;
+            }
+            &-96 {
+                margin: 0 9.6rem;
+            }
+            &-104 {
+                margin: 0 10.4rem;
+            }
+            &-112 {
+                margin: 0 11.2rem;
+            }
+            &-120 {
+                margin: 0 12rem;
+            }
+            &-128 {
+                margin: 0 12.8rem;
+            }
+            &-144 {
+                margin: 0 14.4rem;
+            }
+            &-160 {
+                margin: 0 16rem;
+            }
+            &-200 {
+                margin: 0 20rem;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin: 0 auto;
+            }
+            &-0 {
+                margin: 0 0;
+            }
+            &-2 {
+                margin: 0 0.2rem;
+            }
+            &-4 {
+                margin: 0 0.4rem;
+            }
+            &-6 {
+                margin: 0 0.6rem;
+            }
+            &-8 {
+                margin: 0 0.8rem;
+            }
+            &-10 {
+                margin: 0 1rem;
+            }
+            &-12 {
+                margin: 0 1.2rem;
+            }
+            &-16 {
+                margin: 0 1.6rem;
+            }
+            &-20 {
+                margin: 0 2rem;
+            }
+            &-24 {
+                margin: 0 2.4rem;
+            }
+            &-28 {
+                margin: 0 2.8rem;
+            }
+            &-32 {
+                margin: 0 3.2rem;
+            }
+            &-36 {
+                margin: 0 3.6rem;
+            }
+            &-40 {
+                margin: 0 4rem;
+            }
+            &-44 {
+                margin: 0 4.4rem;
+            }
+            &-48 {
+                margin: 0 4.8rem;
+            }
+            &-56 {
+                margin: 0 5.6rem;
+            }
+            &-64 {
+                margin: 0 6.4rem;
+            }
+            &-80 {
+                margin: 0 8rem;
+            }
+            &-96 {
+                margin: 0 9.6rem;
+            }
+            &-104 {
+                margin: 0 10.4rem;
+            }
+            &-112 {
+                margin: 0 11.2rem;
+            }
+            &-120 {
+                margin: 0 12rem;
+            }
+            &-128 {
+                margin: 0 12.8rem;
+            }
+            &-144 {
+                margin: 0 14.4rem;
+            }
+            &-160 {
+                margin: 0 16rem;
+            }
+            &-200 {
+                margin: 0 20rem;
+            }
+        }
+    }
+}
+
+.my {
+    &-desktop {
+        @media screen and (min-width: 568px) {
+            &-auto {
+                margin: auto 0;
+            }
+            &-0 {
+                margin: 0;
+            }
+            &-2 {
+                margin: 0.2rem 0;
+            }
+            &-4 {
+                margin: 0.4rem 0;
+            }
+            &-6 {
+                margin: 0.6rem 0;
+            }
+            &-8 {
+                margin: 0.8rem 0;
+            }
+            &-10 {
+                margin: 1rem 0;
+            }
+            &-12 {
+                margin: 1.2rem 0;
+            }
+            &-16 {
+                margin: 1.6rem 0;
+            }
+            &-20 {
+                margin: 2rem 0;
+            }
+            &-24 {
+                margin: 2.4rem 0;
+            }
+            &-28 {
+                margin: 2.8rem 0;
+            }
+            &-32 {
+                margin: 3.2rem 0;
+            }
+            &-36 {
+                margin: 3.6rem 0;
+            }
+            &-40 {
+                margin: 4rem 0;
+            }
+            &-44 {
+                margin: 4.4rem 0;
+            }
+            &-48 {
+                margin: 4.8rem 0;
+            }
+            &-56 {
+                margin: 5.6rem 0;
+            }
+            &-64 {
+                margin: 6.4rem 0;
+            }
+            &-80 {
+                margin: 8rem 0;
+            }
+            &-96 {
+                margin: 9.6rem 0;
+            }
+            &-104 {
+                margin: 10.4rem 0;
+            }
+            &-112 {
+                margin: 11.2rem 0;
+            }
+            &-120 {
+                margin: 12rem 0;
+            }
+            &-128 {
+                margin: 12.8rem 0;
+            }
+            &-144 {
+                margin: 14.4rem 0;
+            }
+            &-160 {
+                margin: 16rem 0;
+            }
+            &-200 {
+                margin: 20rem 0;
+            }
+        }
+    }
+    &-mobile {
+        @media screen and (max-width: 568px) {
+            &-auto {
+                margin: auto 0;
+            }
+            &-0 {
+                margin: 0;
+            }
+            &-2 {
+                margin: 0.2rem 0;
+            }
+            &-4 {
+                margin: 0.4rem 0;
+            }
+            &-6 {
+                margin: 0.6rem 0;
+            }
+            &-8 {
+                margin: 0.8rem 0;
+            }
+            &-10 {
+                margin: 1rem 0;
+            }
+            &-12 {
+                margin: 1.2rem 0;
+            }
+            &-16 {
+                margin: 1.6rem 0;
+            }
+            &-20 {
+                margin: 2rem 0;
+            }
+            &-24 {
+                margin: 2.4rem 0;
+            }
+            &-28 {
+                margin: 2.8rem 0;
+            }
+            &-32 {
+                margin: 3.2rem 0;
+            }
+            &-36 {
+                margin: 3.6rem 0;
+            }
+            &-40 {
+                margin: 4rem 0;
+            }
+            &-44 {
+                margin: 4.4rem 0;
+            }
+            &-48 {
+                margin: 4.8rem 0;
+            }
+            &-56 {
+                margin: 5.6rem 0;
+            }
+            &-64 {
+                margin: 6.4rem 0;
+            }
+            &-80 {
+                margin: 8rem 0;
+            }
+            &-96 {
+                margin: 9.6rem 0;
+            }
+            &-104 {
+                margin: 10.4rem 0;
+            }
+            &-112 {
+                margin: 11.2rem 0;
+            }
+            &-120 {
+                margin: 12rem 0;
+            }
+            &-128 {
+                margin: 12.8rem 0;
+            }
+            &-144 {
+                margin: 14.4rem 0;
+            }
+            &-160 {
+                margin: 16rem 0;
+            }
+            &-200 {
+                margin: 20rem 0;
+            }
+        }
+    }
+}
