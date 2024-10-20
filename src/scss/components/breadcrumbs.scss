@@ -1,0 +1,55 @@
+@import "../colors";
+@import "../mixins";
+
+.breadcrumbs {
+    padding: 3rem 0 5rem;
+    overflow: hidden;
+    @media screen and (max-width: 568px) {
+        padding: 2rem 0;
+    }
+    &__wrapper {
+        @media screen and (max-width: 568px) {
+            margin: 0 -1.6rem;
+            padding: 0 1.6rem;
+            overflow: auto;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        @media screen and (max-width: 568px) {
+            width: max-content;
+        }
+    }
+    &__item {
+        display: inline-flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        color: #666666;
+        transition: 0.3s color;
+        &--prev {
+            &:hover {
+                color: $blue;
+            }
+            &::after {
+                @include mask;
+                content: "";
+                display: inline-block;
+                width: 0.6rem;
+                height: 1rem;
+                -webkit-mask-image: url(../img/svg/breadcrumbs-arrow.svg);
+                background: #666666;
+            }
+        }
+        &--curr {
+            pointer-events: none;
+        }
+    }
+}

@@ -11,6 +11,8 @@
   gap: 1.5rem;
   padding: 2rem 4rem;
   border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
   -webkit-transition: 0.2s background;
   transition: 0.2s background;
 }

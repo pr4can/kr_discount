@@ -1,4 +1,4 @@
-@import "../../colors";
+@import "../colors";
 
 .button {
     display: flex;
@@ -7,6 +7,8 @@
     gap: 1.5rem;
     padding: 2rem 4rem;
     border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
     transition: 0.2s background;
     @media screen and (max-width: 568px) {
         padding: 1.2rem 1.8rem;

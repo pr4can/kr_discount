@@ -1,6 +1,9 @@
 @import "main";
 @import "./page-structure/page-structure";
-@import "./sections/sections";
+@import "./sections/banner";
+@import "./sections/popular";
+@import "./sections/advantages";
+@import "./sections/contacts";
 
 main {
     margin-top: -12rem;

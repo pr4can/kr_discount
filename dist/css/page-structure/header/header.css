@@ -1,17 +1,23 @@
 .header {
   position: relative;
-  padding-top: 5rem;
+  padding-top: 3rem;
   z-index: 5;
+}
+
+.header--main {
+  padding-top: 5rem;
 }
 
 .header--main .header__row {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  gap: 0;
 }
 
 .header--main .header__logo {
   position: relative;
+  display: block;
   padding: 2rem 2rem 2rem 0;
   background-color: rgb(255, 255, 255);
   border-radius: 0 0 2rem 0;
@@ -50,6 +56,18 @@
   padding: 2.5rem 2.5rem 2.5rem 4rem;
 }
 
+.header--main .header-contacts::before {
+  background: rgb(255, 255, 255);
+}
+
+.header--main .header-contacts__phone {
+  color: rgb(255, 255, 255);
+}
+
+.header--main .header-contacts__phone::after {
+  background: rgb(255, 255, 255);
+}
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,6 +75,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 9rem;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .header__logo > img {
@@ -83,16 +110,20 @@
 }
 
 .header-contacts::before {
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  background: rgb(0, 0, 0);
+  -webkit-transition: 0.3s background;
+  transition: 0.3s background;
   content: "";
   position: absolute;
   left: 0;
   top: 0.3rem;
   width: 2rem;
   height: 2rem;
-  background-image: url(../img/svg/phone-icon.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-mask-image: url(../img/svg/phone-icon.svg);
+  background: #2E869C;
 }
 
 .header-contacts__wrapper {
@@ -108,7 +139,7 @@
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.6rem;
-  color: rgb(255, 255, 255);
+  color: #2E869C;
 }
 
 .header-contacts__phone::after {
@@ -119,7 +150,7 @@
   right: 0;
   width: 0%;
   height: 0.2rem;
-  background: rgb(255, 255, 255);
+  background: #2E869C;
   -webkit-transition: 0.3s width, 0.3s left, 0.3s right;
   transition: 0.3s width, 0.3s left, 0.3s right;
 }
@@ -136,6 +167,10 @@
 
 @media screen and (max-width: 568px) {
   .header {
+    padding-top: 2rem;
+  }
+
+  .header--main {
     padding-top: 2rem;
   }
 
@@ -167,6 +202,13 @@
     display: -ms-flexbox;
     display: flex;
     padding: 1.6rem;
+  }
+
+  .header__row {
+    gap: unset;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .header__logo > img {

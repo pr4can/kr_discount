@@ -1,9 +1,51 @@
-.popular {
+.catalog {
   position: relative;
   overflow: hidden;
 }
 
-.popular__wrapper {
+.catalog__title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: #2E869C;
+  margin: 0 0 1.5rem;
+}
+
+.catalog-item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #333333;
+}
+
+.catalog-item__link::after {
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  background: rgb(0, 0, 0);
+  -webkit-transition: 0.3s background;
+  transition: 0.3s background;
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  -webkit-mask-image: url(../img/svg/right-arrow.svg);
+  background: #666666;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.catalog-item__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,12 +55,12 @@
   padding-bottom: 6.2rem;
 }
 
-.popular__column {
+.catalog-item__column {
   position: relative;
   background: rgb(255, 255, 255);
 }
 
-.popular__column:nth-child(1) {
+.catalog-item__column:nth-child(1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,40 +77,32 @@
   z-index: 2;
 }
 
-.popular__column:nth-child(2) {
+.catalog-item__column:nth-child(2) {
   width: 105rem;
   z-index: 1;
 }
 
-.popular__title {
+.catalog-item__title {
   font-weight: 700;
-  font-size: 4rem;
-  line-height: 5.2rem;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
   color: #2E869C;
   margin: 0 0 3rem;
 }
 
-.popular__desc {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  color: #798183;
-  margin: 0;
-}
-
-.popular__btn {
-  margin-top: auto;
+.catalog-item__btn {
   width: 100%;
 }
 
-.popular-slider {
+.catalog-item-slider {
   position: relative;
 }
 
-.popular-slider__swiper {
+.catalog-item-slider__swiper {
   overflow: visible;
 }
 
-.popular-slider-nav {
+.catalog-item-slider-nav {
   position: absolute;
   right: 0;
   bottom: -6.2rem;
@@ -82,7 +116,7 @@
   overflow: hidden;
 }
 
-.popular-slider-nav__item {
+.catalog-item-slider-nav__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,22 +129,22 @@
   transition: 0.3s background;
 }
 
-.popular-slider-nav__item:hover {
+.catalog-item-slider-nav__item:hover {
   background: #0F345C;
 }
 
-.popular-slider-nav__item.swiper-button-disabled {
+.catalog-item-slider-nav__item.swiper-button-disabled {
   background: rgba(46, 134, 156, 0.5);
   pointer-events: none;
 }
 
-.popular-slider-nav__item--prev::after {
+.catalog-item-slider-nav__item--prev::after {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.popular-slider-nav__item::after {
+.catalog-item-slider-nav__item::after {
   -webkit-mask-size: contain;
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
@@ -126,7 +160,7 @@
 }
 
 @media screen and (min-width: 568px) {
-  .popular::before {
+  .catalog::before {
     content: "";
     position: absolute;
     top: 0;
@@ -137,7 +171,7 @@
     z-index: 10;
   }
 
-  .popular::after {
+  .catalog::after {
     content: "";
     position: absolute;
     top: 0;
@@ -148,42 +182,26 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
     z-index: 10;
   }
+
+  .catalog__title {
+    display: none;
+  }
+
+  .catalog-item:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+
+  .catalog-item__link {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 568px) {
-  .popular__wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 0;
+  .catalog-item {
+    border-bottom: 0.1rem solid #8ba9b0;
   }
 
-  .popular__column:nth-child(1) {
-    width: 100%;
-    padding-right: 0;
-  }
-
-  .popular__column:nth-child(2) {
-    width: 100%;
-  }
-
-  .popular__title {
-    font-size: 3.2rem;
-    line-height: 4.2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .popular__desc {
-    margin-bottom: 1.5rem;
-  }
-
-  .popular-slider-nav {
-    position: static;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-top: 1rem;
+  .catalog-item__wrapper {
+    display: none;
   }
 }

@@ -1,6 +1,6 @@
+import { category } from "./modules/category.js";
 import { header } from "./modules/header.js";
 import { map } from "./modules/map.js";
-import { popular } from "./modules/popular.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const observer = lozad(".lozad", {
@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     AOS.init({ disable: "mobile" });
 
     header();
-    popular();
+    category();
     map();
 });
